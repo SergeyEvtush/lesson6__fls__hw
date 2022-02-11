@@ -1,0 +1,166 @@
+/*&display=swap*/
+@import url(null.css);
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@font-face {
+	font-family:Comforter;
+	src: url("../fonts/coolFont.woff2") format("woff2"),url("../fonts/coolFont.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:Comforter;
+	src: url("../fonts/Verdana-Bold.woff2") format("woff2"),url("../fonts/Verdana-Bold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:Comforter;
+	src: url("../fonts/Verdana.woff2") format("woff2"),url("../fonts/Verdana.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:Comforter;
+	src: url("../fonts/Verdana-Italic.woff2") format("woff2"),url("../fonts/Verdana-Italic.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family:Comforter;
+	src: url("../fonts/Verdana-BoldItalic.woff2") format("woff2"),url("../fonts/Verdana-BoldItalic.woff") format("woff");
+	font-weight: 800;
+	font-style: italic;
+	font-display: swap;
+}
+.wraper{
+	overflow: hidden;
+	min-height: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+	padding:20px 5px 0px 5px;
+}
+body{
+	font-size: 18px;
+	font-family: "Verdana";
+}
+
+
+.title-block {
+	font-weight: 800;
+	font-family: "Verdana-Bold";
+	margin:0px 0px 20px 0px;
+
+	border-radius: 52% 48% 50% 50% / 100% 0% 100% 0% ;
+	box-shadow: inset 10px 10px 30px blue;
+	padding:40px 0px 20px 0px;
+}
+.hader-title-item {
+	font-size: 43px;
+	margin: 0 auto;
+	text-align: center;
+	text-shadow: 5px 10px 20px blue;
+	max-width: 50%;
+}
+.image-block {
+	max-width: 100%;
+	margin: 0 auto;
+	border: 10px solid white;
+	box-shadow: 1px 2px 10px #000;
+	margin:0px 0px 20px 0px;
+}
+.header-image-item {
+	width: 100%;
+	overflow: hidden;
+}
+
+.title-page {
+	margin:40px 0px 40px 0px;
+}
+.title-page-item {
+	font-size: 30px;
+	font-family: "Verdana-BoldItalic";
+	font-style: italic;
+	font-weight: 800;
+	margin:0px 0px 20px 0px;
+}
+.title-page-content {
+	padding:0px 200px 0px 200px;
+	font-family: "Andada Pro";
+	font-size: 25px;
+	color: rgba(0, 0, 0, 0.404);
+	text-decoration: underline;
+}
+.page-content {
+	outline: 20px solid rgba(87, 87, 87, 0.664);
+}
+.content-paragraph {
+	margin:0px 0px 30px 0px;
+}
+.name {
+	font-family: "coolFont",'Times New Roman';
+	font-size: 50px;
+	border-bottom:2px dashed  red;
+}
+.content-image {
+	margin:0px 0px 20px 0px;
+	max-width: 100%;
+	padding:0px 20px 0px 20px;
+}
+.image-item {
+	width: 100%;
+	overflow: hidden;
+	border: 10px solid white;
+	box-shadow: 1px 2px 10px #000;
+}
+.about-foto {
+	font-size: 16px;
+}
+.subtitle-page-item {
+	font-family: "Verdana-Italic";
+	font-weight: 400;
+	font-style: italic;
+	font-size: 30px;
+	margin:0px 0px 20px 0px;
+}
+.half{
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+.footer-title {
+	
+	font-size: 45px;
+}
+.footer-subtitle {
+	margin:0px 0px 20px 0px;
+	font-size: 55px;
+	color: red;
+}
+[class*="paragraph"]:first-letter{
+	font-size:20;
+	color: red;
+}
+[class*="subtitle"]{
+	border:2px dashed black;
+}
+[class*="subtitle"]:last-child{
+	max-width: 500px;
+	margin:0px 0px 0px auto ;
+}
+[class*="subtitle"]:nth-child(odd){
+	border:5px solid green;
+	box-shadow: inset 4px 5px 10px green;
+}
+[class*="subtitle"]:nth-child(3n-2){
+	border:5px solid green;
+	box-shadow: inset 4px 5px 10px rgb(128, 98, 0);
+}
+[class*="paragraph"]:nth-child(n+2){
+	
+	box-shadow: inset 4px 0px 10px rgb(128, 19, 0);
+	border:solid 1px black
+}
