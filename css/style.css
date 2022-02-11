@@ -9,28 +9,28 @@
 	font-display: swap;
 }
 @font-face {
-	font-family:Comforter;
+	font-family:Veranda;
 	src: url("../fonts/Verdana-Bold.woff2") format("woff2"),url("../fonts/Verdana-Bold.woff") format("woff");
 	font-weight: 800;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
-	font-family:Comforter;
+	font-family:Veranda;
 	src: url("../fonts/Verdana.woff2") format("woff2"),url("../fonts/Verdana.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
-	font-family:Comforter;
+	font-family:Veranda;
 	src: url("../fonts/Verdana-Italic.woff2") format("woff2"),url("../fonts/Verdana-Italic.woff") format("woff");
 	font-weight: 400;
 	font-style: italic;
 	font-display: swap;
 }
 @font-face {
-	font-family:Comforter;
+	font-family:Veranda;
 	src: url("../fonts/Verdana-BoldItalic.woff2") format("woff2"),url("../fonts/Verdana-BoldItalic.woff") format("woff");
 	font-weight: 800;
 	font-style: italic;
@@ -51,7 +51,7 @@ body{
 
 .title-block {
 	font-weight: 800;
-	font-family: "Verdana-Bold";
+	font-family: "Veranda";
 	margin:0px 0px 20px 0px;
 
 	border-radius: 52% 48% 50% 50% / 100% 0% 100% 0% ;
@@ -82,7 +82,7 @@ body{
 }
 .title-page-item {
 	font-size: 30px;
-	font-family: "Verdana-BoldItalic";
+	font-family: "Verdana";
 	font-style: italic;
 	font-weight: 800;
 	margin:0px 0px 20px 0px;
@@ -96,6 +96,10 @@ body{
 }
 .page-content {
 	outline: 20px solid rgba(87, 87, 87, 0.664);
+}
+[class*="paragraph"]:first-letter{
+
+	color: red;
 }
 .content-paragraph {
 	margin:0px 0px 30px 0px;
@@ -120,7 +124,7 @@ body{
 	font-size: 16px;
 }
 .subtitle-page-item {
-	font-family: "Verdana-Italic";
+	font-family: "Verdana";
 	font-weight: 400;
 	font-style: italic;
 	font-size: 30px;
@@ -140,10 +144,7 @@ body{
 	font-size: 55px;
 	color: red;
 }
-[class*="paragraph"]:first-letter{
-	font-size:20;
-	color: red;
-}
+
 [class*="subtitle"]{
 	border:2px dashed black;
 }
